@@ -45,11 +45,11 @@ void caesar(std::string s, int step)
 
 int main()
 {
-    caesar("a", 1); // => "b"
-    caesar("abcz", 1); // => "bcda"
-    caesar("irk", 13); // => "vex"
-    caesar("fusion", 6); // => "layout"
-    caesar("dailyprogrammer", 6); // => "jgorevxumxgsskx"
-    caesar("jgorevxumxgsskx", 20); // => "dailyprogrammer"
-    caesar("Daily Programmer!", 6); // => "Jgore Vxumxgsskx!"
+    caesar("a", 1); 
+    caesar("abcz", 1); 
+    caesar("irk", 13); 
+    caesar("fusion", 6); 
+    caesar("dailyprogrammer", 6);
+    caesar("jgorevxumxgsskx", 20); 
+    caesar("Daily Programmer!", 6); 
 }
